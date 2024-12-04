@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Merriweather", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-banner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../resources/Banner\ Image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1150px;
+  margin: 0 auto;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.banner-text {
+  width: 500px;
+  text-align: center;
+  justify-content: center;
+}
+.first {
+  color: white;
+  font-size: 20px;
+}
+.middle {
+  color: white;
+  font-size: 50px;
+  margin-top: 5px;
+}
+.sale-off {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.sale-img img,
+.second-banner img {
+  height: 400px;
+}
+.sale-text {
+  text-align: center;
+}
+.offer {
+  font-size: 50px;
+  color: #ff0000;
+  font-family: "Inter", sans-serif;
+}
+.holiday {
+  font-size: 24px;
+  color: #ff0000;
+  /* line-height: 0.4; */
+}
+
+.category {
+  font-size: 48px;
+  color: black;
+  /* line-height: 0.1; */
+}
+.second-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../resources/Vectorrr.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1150px;
+  margin: 0 auto;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.second-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.second-banner-content {
+  width: 550px;
+}
+.second-middle {
+  font-size: 64px;
+  color: white;
+}
+.second-banner-text {
+  font-size: 18px;
+  color: white;
+}
+.coupon-content {
+  width: 1150px;
+  margin: 0 auto;
+  background: linear-gradient(#ff00004b, #ff000028, #ff000009,#ff00000a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  height: 350px;
+  border-radius: 12px;
+}
+
+.coupon {
+  font-size: 32px;
+  color: #ff0000;
+}
+.coupon-text {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+}
+.btn-space {
+  display: flex;
+  justify-content: center;
+}
+.join-btn {
+  height: 56px;
+  width: 167px;
+  color: white;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+.best-offer-section {
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  height: 350px;
+  border-radius: 12px;
+}
+.best-offer-section div {
+  width: 350px;
+}
+
+.group-img img {
+  width: 300px;
+  border: 10px solid #ff0000;
+  padding: 20px;
+  border-radius: 50%;
+}
+.best {
+  color: #ff0000;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+}
+.coming {
+  font-size: 40px;
+  color: black;
+}
+.offer-description {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 50px;
+}
+.happy-img img {
+  height: 140px;
+  width: 140px;
+}
+.somoi {
+  font-family: "Inter", sans-serif;
+  color: #ff0000;
+  font-size: 48px;
+}
+
+
+.portfolio-parent {
+    width:1150px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    gap: 20px; /* Optional: Adds spacing between items */
+    justify-content: space-between; /* Adjust spacing between rows and items */
+}
+
+.portfolio {
+    width: calc((1150px - 50px)/3);
+    /* height: 450px;
+    width:424px ; */
+    
+
+}
+.portfolio img{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: calc((1150px - 50px)/3);
+    /* height:450px;
+    width:424px ; */
+    border-radius: 16px;
+}
+
+.gifts{
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.msg-section{
+    display: flex;
+   flex-direction: column;
+}
+.msg-section div{
+      column-gap: 1px;
+}
+.msg-img img{
+    height: 100px;
+    width: 100px;
+}
+.msg-title{
+    font-size:30px;
+    text-align: center;
+    color: black bold;
+    line-height: 2;
+}
+.msg-description{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.msg-form{
+    display: flex;
+}
+.msg-form input{
+    height:40px;
+    width:300px;
+    background-color:white;
+    color: burlywood;
+    border: none;
+    padding: 0px 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  
+}
+.sub-btn{
+    height:40px;
+    width:150px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+footer {
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+}
+.footer-section{
+   width: 1150px;
+   margin: 0 auto;
+   
+   padding: 100px 0;
+   
+}
+.address{
+    color: white;
+    line-height: 2;
+}
+.contact{
+    color: white;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact div {
+    display: flex;
+    align-items: center;
+    line-height: 2;
+    gap: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+hr {
+    margin: 50px 0;
+}
+.function{
+    font-size:20px;
+    color: black;
+}
+.holi-sale{
+    font-size:40px ;
+    color: #FF0000;
+}
+.holi-description{
+    font-size: 20px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 50px;
+}
+.holiday-sale{
+    position: relative;
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+/* complex - sriti korenai jitu korse */
+
+.img-all {
+    position: relative;
+    height: 600px;
+}
+
+.choturvuj {
+    position: absolute;
+    bottom: 0;
+}
+.choturvuj img {
+    max-width: 1150px;
+    height: 200px;
+}
+
+.box {
+    position: absolute;
+    bottom: 30px;
+    z-index: 1;
+    left: 50px;
+    
+}
+
+.box img {
+    height: 500px;
+}
+
+.girl {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    bottom: 200px;
+}
+
+.girl img {
+    /* height: 396px; */
+    width: 400px;
+}
+
+.gol {
+    position: absolute;
+    right: 250px;
+    top: 50px;
+    z-index: 2;
+}
+
+.gol img {
+    background-size: cover;
+}
